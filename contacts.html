@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <menu class="main-menu flex-box flex-between container">
+        <a class="main-menu-item to-homepage" href="index.html" title="На главную"></a>
+        <a class="main-menu-item to-contacts" href="contacts.html" title="Контакты"></a>
+    </menu>
+    <header class="contacts-header header">
+        <section class="contacts-welcome flex-box container">
+            <h2 class="contacts-heading heading-big">Contact Us</h2>
+            <p class="contacts-header-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+    </header>
+    <section class="contacts-contaner flex-box container">
+        <div class="contact-info">
+            <img src="img/contacts-img.svg" alt="Contacts Image">
+            <h4 class="heading-mini">Address</h4>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h4 class="heading-mini">Phone</h4>
+            <ul>
+                <li>84958884421</li>
+                <li>84958884512</li>
+            </ul>
+            <h4 class="heading-mini">Online service</h4>
+            <ul>
+                <li><a href="https://mail.ru/">https://mail.ru/</a></li>
+                <li><a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
+            </ul>
+        </div>
+        <div class="contact-message">
+            <h4 class="heading-mini">Send us message</h4>
+            <form class="message-form" action="#">
+                <label class="message-label">
+                    <span class="label-text">Full Name</span><br>
+                    <input class="input-text" type="text" placeholder="Your Name">
+                </label>
+                <br>
+                <label class="message-label">
+                    <span class="label-text">Email</span><br>
+                    <input class="input-text" type="email" placeholder="Your Email">
+                </label>
+                <br>
+                <label class="message-label">
+                    <span class="label-text">Message</span><br>
+                    <textarea class="input-text" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                </label>
+                <br>
+                <button class="send-button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="map-container flex-box container">
+        <iframe class="map" src="https://yandex.ru/map-widget/v1/"></iframe>
+    </section>
+    <footer class="footer">
+        <section class="cooperation-container flex-box flex-between container">
+            <div class="cooperation">
+                <h3 class="cooperation-heading heading-mid">Intersted to work with our team?</h3>
+                <p class="cooperation-text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <a href="#" class="cooperation-link">Let’s Talk</a>
+        </section>
+        <hr class="delimiter">
+        <section class="contacts-container container">
+            <ol class="contacts flex-box">
+                <li class="contacts-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li class="contacts-item">+7-812-7313-4321</li>
+                <li class="contacts-item"><a class="contacts-mail" href="mailto:hello.site@gmail.com">hello.site@gmail.com</a></li>
+            </ol>
+            <p class="copyright text">2021 All Rights Reserved.</p>
+        </section>
+    </footer>
+</body>
+</html>
